@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xác thực độ dài chuỗi</title>
+    <script>
+        function validateInput() {
+            const input = document.getElementById("textInput").value;
+            if (input.length > 50) {
+                alert("Chuỗi đầu vào không được vượt quá 50 ký tự.");
+            } else {
+                alert("Chuỗi hợp lệ.");
+            }
+        }
+    </script>
+</head>
+<style>
+  .great-world{
+    display: block;
+    place-self: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-size: 10px;
+  }  
+  .image{
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+<body>
+    <h1 style="text-align: center;color: red;"> Lời chúc mừng </h1>
+    <p>Hãy viết lời chúc cho người khác không quá 50 chữ </p>
+    <p><strong>Lưu ý:</strong> Nhớ bấm vào nút kiểm tra xem có hợp lí không </p>
+    
+    <input style="display: block;margin: 0 auto;" type="text" id="textInput" placeholder="Nhập chuỗi của bạn">
+    <button class="great-world" onclick="validateInput()">Kiểm tra</button>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAqMq6jbFrEQ8NJlKEFWLa9EjSvTuPor-f7_GFOLmNK3WpJvk&s" style="display: block;margin: 0 auto;">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Wil742WMz8YAP5Ep9YI0rgNGPnE297xGLk1CntcApM8FhYQ&s" style="display: block;margin: 0 auto;">
+</body>
+</html>
